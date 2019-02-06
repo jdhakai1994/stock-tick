@@ -1,9 +1,9 @@
-# StockTick
+# Stock-Tick
 
 This is a pseudo frontend web application for Stock Info using [Alpha Vantage](http://www.alphavantage.co/) API.
 The application is hosted here https://jdhakai1994.github.io/stock-tick/
 
-Tech Stack Used: `Angular` `Typescript` `Bootstrap` `HTML5` `CSS3` 
+Technology Stack Used: `Angular 7` `Typescript 3` `Bootstrap 4` `HTML5` `CSS3` 
 
 ## Alpha Vantage
 
