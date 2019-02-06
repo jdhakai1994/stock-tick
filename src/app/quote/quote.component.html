@@ -1,0 +1,15 @@
+<h3>WatchList</h3>
+<small>*refreshes automatically every {{timeToRefresh}} seconds</small>
+<div *ngIf=quoteDataLoaded>
+  <div class="list-group">
+    <div *ngFor="let quote of quoteData">
+      <div class="list-group-item align-items-start">
+        <h5 class="mb-1">{{quote.symbol}}</h5>
+        <p class="mb-1">{{quote.price}} (USD)</p>
+        <div *ngIf="quote.hasIncreased; then greenBlock else redBlock"></div>
+        <ng-template #greenBlock><small class="text-success">+{{quote.change}} (+{{quote.changePercent}})</small></ng-template>
+        <ng-template #redBlock><small class="text-danger">{{quote.change}} ({{quote.changePercent}})</small></ng-template>
+      </div>
+    </div>
+  </div>
+</div>

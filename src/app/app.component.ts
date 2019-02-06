@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'stock-tick';
+  title = 'Stock-Tick';
+
+  symbol: String;
+
+  receiveSymbol($event) {
+    this.symbol = $event;
+  }
 }
