@@ -1,7 +1,7 @@
 # Stock-Tick
 
 This is a pseudo frontend web application for Stock Info using [Alpha Vantage](http://www.alphavantage.co/) API.
-The application is hosted here https://jdhakai1994.github.io/stock-tick/
+The application is hosted here at https://jdhakai1994.github.io/stock-tick/
 
 Technology Stack Used: `Angular 7` `Typescript 3` `Bootstrap 4` `HTML5` `CSS3` 
 
@@ -15,7 +15,7 @@ Technology Stack Used: `Angular 7` `Typescript 3` `Bootstrap 4` `HTML5` `CSS3`
 - Plots a line graph demonstrating stock's individual performance.
 - Provides a search bar to list out probable matching symbols/tickers and company names based on the keyword entered. 
 
-> If data hasn't loaded, its likely because of the API limit. Please try within a minute.
+> If data hasn't loaded, its likely because of the API limit. Please try again in a minute.
 
 ## Getting Started
 
