@@ -1,13 +1,13 @@
 # Stock-Tick
 
-This is a pseudo frontend web application for Stock Info using [Alpha Vantage](http://www.alphavantage.co/) API.
+This is a pseudo frontend web application for Stock Info using [Alpha Vantage](https://www.alphavantage.co/) API.
 The application is hosted here at https://jdhakai1994.github.io/stock-tick/
 
 Technology Stack Used: `Angular 7` `Typescript 3` `Bootstrap 4` `HTML5` `CSS3` 
 
 ## Alpha Vantage
 
-[Alpha Vantage](http://www.alphavantage.co/) delivers a free API for real time financial data in a simple json. However, the free API allows only 5 calls/minute and 500 calls/day.
+[Alpha Vantage](https://www.alphavantage.co/) delivers a free API for real time financial data in a simple json. However, the free API allows only 5 calls/minute and 500 calls/day.
 
 ## Features
 
